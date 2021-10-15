@@ -33,7 +33,7 @@ public class Livenstein {
     }
 
     public static void main(String[] args) {
-        String str = livenstain("hellooo","hello");
+        String str = livenstain("hey","hello");
         System.out.println(str);
 
     }
