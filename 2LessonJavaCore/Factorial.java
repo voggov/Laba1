@@ -28,7 +28,7 @@ public class Factorial {
 
     public static void main(String[] args) {
         long startTime = System.nanoTime();
-        for (int i = 0; i < 200; i++)
+        for (int i = 0; i < 200; i++)           //Добавил два цикла чтобы увеличить время выполнения (без циклов у используемого метода не хватает точности)
         {
             System.out.print(1);
         }
